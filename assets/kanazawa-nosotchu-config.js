@@ -1,0 +1,29 @@
+(function(){
+  "use strict";
+
+  window.PDSKanazawaNosotchuConfig={
+    availability:{sheetId:"1ukpqcAalzq8Pvh76FNDEsfaPWeyrwqL7yrGpDU9yB9M",gid:0},
+    pricing:{
+      lunchFee:630,
+      bathFee:45,
+      transportDeduction:54,
+      preventiveTransportDeduction:53,
+      monthlyAddOns:134,
+      daycare:{
+        short3:{bathIncluded:false,fees:{1:[520,579,642,702,764],2:[1040,1158,1284,1404,1528],3:[1560,1737,1926,2106,2292]}},
+        short4:{bathIncluded:false,fees:{1:[540,603,668,732,796],2:[1080,1206,1336,1464,1592],3:[1620,1809,2004,2196,2388]}},
+        short5:{bathIncluded:true,fees:{1:[788,904,1020,1136,1252],2:[1576,1808,2040,2272,2504],3:[2364,2712,3060,3408,3756]}},
+        standard6:{bathIncluded:true,fees:{1:[804,922,1042,1159,1279],2:[1608,1844,2084,2318,2558],3:[2412,2766,3126,3477,3837]}}
+      },
+      preventive:{
+        nonoichi1:{1:2055,2:4110,3:6165},
+        nonoichi2:{1:4093,2:8186,3:12279},
+        kanazawa1:{1:2084,2:4168,3:6252},
+        kanazawa2:{1:4151,2:8301,3:12451},
+        hakusan1:{1:2055,2:4110,3:6165},
+        hakusan2:{1:4093,2:8186,3:12279}
+      },
+      preventiveVisits:{nonoichi1:4,nonoichi2:8,kanazawa1:4,kanazawa2:8,hakusan1:4,hakusan2:8}
+    }
+  };
+})();
